@@ -1,0 +1,11 @@
+{% extends "agendaApi/index.html" %}
+{% block body %}
+<br>
+    <form action="{{ action }}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <br>
+        <br>
+        <input class="button" type="submit" value="submit">
+    </form>
+{% endblock %}
