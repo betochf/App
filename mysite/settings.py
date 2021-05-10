@@ -60,6 +60,8 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
+ALLOWED_HOSTS = ['contacts-alb.herokuapp.com','127.0.0.1']
+
 
 ROOT_URLCONF = 'mysite.urls'
 
